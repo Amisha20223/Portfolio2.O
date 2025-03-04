@@ -25,7 +25,7 @@ export default function Header() {
           </a>
           <span className="text-indigo-600">|</span>
           <a href="tel:7388977687" className="text-indigo-600 hover:text-indigo-800">
-            7388977687
+            7388977687  
           </a>
         </motion.div>
       </div>
