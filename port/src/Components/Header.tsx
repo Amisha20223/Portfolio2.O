@@ -21,7 +21,7 @@ export default function Header() {
         </motion.h1>
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.4 }} className="space-x-4">
           <a href="mailto:maheaa077@gmail.com" className="text-indigo-600 hover:text-indigo-800">
-            maheaa077@gmail.com
+            amisharajput977@gmail.com
           </a>
           <span className="text-indigo-600">|</span>
           <a href="tel:7388977687" className="text-indigo-600 hover:text-indigo-800">
