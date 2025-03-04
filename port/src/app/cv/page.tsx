@@ -3,7 +3,7 @@ export default function CV() {
       <div className="bg-white text-black min-h-screen p-8">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl font-bold mb-4">Amisha Singh</h1>
-          <p className="mb-2">maheaa077@gmail.com | 7388977687</p>
+          <p className="mb-2">amisharajput977@gmail.com | 7388977687</p>
   
           <section className="mb-6">
             <h2 className="text-2xl font-semibold mb-2">Education</h2>
