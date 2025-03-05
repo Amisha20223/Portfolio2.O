@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 export default function Projects() {
   const projects = [
@@ -9,9 +9,9 @@ export default function Projects() {
       technologies: "NextJs, React, TypeScript, Tailwind",
       period: "Dec 2023 - Jan 2024",
       description: [
-        "Developed educational solutions aimed at enhancing financial literacy, resulting in a 25% improvement in user engagement within the first month of launch.",
-        "Created interactive courses and resources covering budgeting, saving, investing, debt management, and retirement planning, leading to a 30% increase in course completion rates in future.",
-        "Enhanced user engagement through interactive financial education tools and resources, increasing returning users by 20%.",
+        "Developed educational solutions aimed at enhancing financial literacy, leading to a 25 percent improvement in user engagement within the first month of launch.",
+        "Created interactive courses and resources covering budgeting, saving, investing, debt management, and retirement planning, which resulted in a 30 percent increase in course completion rates.",
+        "Enhanced user engagement through interactive financial education tools and resources, leading to a 20 percent increase in returning users.",
       ],
     },
     {
@@ -19,11 +19,11 @@ export default function Projects() {
       technologies: "React, JavaScript",
       period: "Nov 2023 - Dec 2023",
       description: [
-        "Designed and implemented user-friendly interfaces, which resulted in a 30% reduction in user errors during billing processes.",
-        "Integrated real-time data updates and responsive design to enhance user experience by 15%",
+        "Designed and implemented user-friendly interfaces, reducing user errors during billing processes by 30 percent.",
+        "Integrated real-time data updates and responsive design to improve user experience by 15 percent.",
       ],
     },
-  ]
+  ];
 
   return (
     <motion.section
@@ -60,6 +60,5 @@ export default function Projects() {
         </motion.div>
       ))}
     </motion.section>
-  )
+  );
 }
-

@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 export default function Skills() {
   const skills = [
@@ -20,7 +20,7 @@ export default function Skills() {
     "ReactJS",
     "React Native",
     "MySQL",
-  ]
+  ];
 
   return (
     <motion.section
@@ -46,6 +46,5 @@ export default function Skills() {
         ))}
       </div>
     </motion.section>
-  )
+  );
 }
-
