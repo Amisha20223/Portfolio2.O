@@ -1,13 +1,13 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
+import { motion } from "framer-motion";
 
 export default function Certifications() {
   const certifications = [
     "Data Structures – Explored fundamental data organization techniques and algorithms.",
     "SQL Essentials – Gained practical knowledge in querying databases, managing data, and performing essential database operations.",
-    "CISCO Switching, Routing, and Wireless – Focused on configuring and managing network switches, routers, and wireless networks for secure and efficient communication.",
-  ]
+    "CISCO Switching, Routing, and Wireless – Focused on configuring and managing network switches, routers, and wireless networks for secure and efficient communication."
+  ];
 
   return (
     <motion.section
@@ -31,6 +31,5 @@ export default function Certifications() {
         ))}
       </ul>
     </motion.section>
-  )
+  );
 }
-

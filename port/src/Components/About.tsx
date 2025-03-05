@@ -17,7 +17,7 @@ export default function About() {
           </h2>
           <p className="text-lg text-gray-300 mb-4">
             I am a passionate Frontend Developer with experience in React, Next.js, and modern web technologies.
-            Currently pursuing a Bachelor's in Technology, I specialize in creating responsive and user-friendly
+            Currently pursuing a Bachelors in Technology, I specialize in creating responsive and user-friendly
             interfaces.
           </p>
           <div className="flex flex-wrap gap-3">

@@ -1,13 +1,13 @@
-"use client"
+"use client";
 
-import { motion } from "framer-motion"
-import Image from "next/image"
+import { motion } from "framer-motion";
+import Image from "next/image";
 
 const projects = [
   {
     title: "Design",
     image: "/placeholder.svg?height=300&width=300",
-    description: "UI/UX Design Projects",
+    description: "UI UX Design Projects",
   },
   {
     title: "Mockup",
@@ -19,7 +19,7 @@ const projects = [
     image: "/placeholder.svg?height=300&width=300",
     description: "Interface Designs",
   },
-]
+];
 
 export default function Work() {
   return (
@@ -55,6 +55,5 @@ export default function Work() {
         ))}
       </div>
     </div>
-  )
+  );
 }
-
